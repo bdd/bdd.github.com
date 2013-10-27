@@ -9,23 +9,25 @@
   <meta name="author" content="Berk D. Demir" />
   <meta name="keywords" content="berk, demir, berk demir, berk d. demir, personal, homepage, wiki, blog, profile, resume, who" />
 
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css" rel="stylesheet">
   <style type="text/css">
   body {
-    margin: 0 0 0 2em; padding: 0;
-    background: #fff; color: #ed228e;
-    font-family: Helvetica; font-size: 200%;
+    margin: 0 0 0 1em;
+    background: #fff; color: #333;
+    font-family: "Helvetica Neue", Helvetica; font-size: 300%; letter-spacing: -0.075ex;
     text-align: left;
   }
-  a  { color: #fff; }
-  ul { list-style-type: none; display: inline; padding: 0; }
-  li { display: inline; }
+  a  { color: #999 }
+  a:hover { color: #333 }
+  .fa { font-size: 75% }
   #square {
-    background: #ed228e;
-    height: 4em; width: 4em;
+    background: #333;
+    height: 5ex; width: 11.25ex
   }
-  #title { margin-top: 0.25em; }
-  #elsewhere img { width: 16px; height: 16px; }
+  #title { margin: 0; padding: 0 }
+  #elsewhere img { width: 32px; height: 32px; }
   </style>
+
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-4816546-1']);
@@ -35,52 +37,14 @@
 <body>
   <div id="square"></div>
   <div id="title">
-    <span style="font-weight: bold;">bddemir</span>
-    <span style="color: #bbb;">elsewhere</span>
-    <ul id="elsewhere">
-      <li id="twitter">
-        <a href="http://twitter.com/bd" rel="me">
-          <img alt="twitter" src="http://twitter.com/favicon.ico"/>
-        </a>
-      </li>
-      <li id="linkedin">
-        <a href="http://www.linkedin.com/in/bddemir" rel="me">
-          <img alt="linkedin" src="http://www.linkedin.com/favicon.ico"/>
-        </a>
-      </li>
-      <li id="github">
-        <a href="http://github.com/bdd" rel="me">
-          <img alt="github" src="http://github.com/favicon.ico"/>
-        </a>
-      </li>
-      <li id="quora">
-        <a href="http://www.quora.com/Berk-D.-Demir" rel="me">
-          <img alt="quora" src="http://www.quora.com/favicon.ico"/>
-        </a>
-      </li>
-      <li id="pinboard">
-        <a href="http://pinboard.in/u:bdd" rel="me">
-          <img alt="pinboard" src="http://pinboard.in/favicon.ico" />
-        </a>
-      </li>
-      <li id="astore">
-        <a href="http://astore.amazon.com/bddemir-20" rel="me">
-          <img alt="astore" src="http://www.amazon.com/favicon.ico"/>
-        </a>
-      </li>
-    </ul>
+    <span style="font-weight: bold;">berk d. demir</span>
+    <span style="color: #999; font-weight: bold;">elsewhere</span>
+
+    <a href="http://twitter.com/bd"><i class="fa fa-twitter"></i></a>
+    <a href="http://github.com/bdd"><i class="fa fa-github"></i></a>
+    <a href="http://www.linkedin.com/in/bddemir"><i class="fa fa-linkedin-square"></i></a>
+    <a href="http://astore.amazon.com/bddemir-20"><i class="fa fa-shopping-cart"></i></a>
   </div>
-  <script type="text/javascript">
-    var li; var ul = document.getElementById("elsewhere").children;
-    for (li in ul) { ul[li].onclick = "_gaq.push(['_trackEvent', 'ew_" + ul[li].id + "', 'click']);"; }
-  </script>
-  <script type="text/javascript">
-    (function() {
-     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-     })();
-  </script>
 </body>
 </html>
 
